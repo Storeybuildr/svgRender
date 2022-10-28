@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<widget id="mendix.svgrender.SvgRender" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+<widget id="innoki.svgrenderer.SvgRenderer" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
         supportedPlatform="Web"
         xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
-    <name>Svg Render</name>
-    <description>A Mendix pluggable widget used to render an SVG given an input template</description>
+    <name>SVG Renderer</name>
+    <description>Render an SVG given an input template</description>
     <icon/>
     <properties>
         <property key="svgData" type="textTemplate" multiline="true" required="true">
             <caption>SVG</caption>
             <category>General</category>
-            <description>A complete &lt;sv&gt;>&lt;/svg&gt; tag.></description>
+            <description>A complete &lt;svg&gt;&lt;/svg&gt; tag.</description>
         </property>
     </properties>
 </widget>
