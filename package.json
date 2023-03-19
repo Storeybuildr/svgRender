@@ -1,15 +1,19 @@
 {
   "name": "svgrenderer",
-  "widgetName": "SVGRenderer",
+  "widgetName": "SvgRenderer",
   "version": "1.0.0",
   "description": "SVG Renderer",
-  "copyright": "Storeybuildr Pty Ltd 2022",
-  "author": "Storeybuildr Pty Ltd",
+  "copyright": "© Innoki IP Pty Ltd 2022. All rights reserved.",
+  "author": "David Tout",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  },
   "config": {
     "widgetPath": "./",
     "projectPath": "C:/DEV/Mendix/Innoki-main",
     "mendixHost": "http://localhost:8080",
-    "developmentPort": "3000"
+    "developmentPort": 3000
   },
   "packagePath": "innoki",
   "scripts": {
@@ -21,7 +25,6 @@
     "prerelease": "npm run lint",
     "release": "pluggable-widgets-tools release:js"
   },
-  "license": "Apache-2.0",
   "devDependencies": {
     "@mendix/pluggable-widgets-tools": "^9.0.0"
   },
